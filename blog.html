@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>测试</title>
+<script>
+    alert('genshin\nimpact');
+
+        var a;
+        var one = prompt('请输入第一个数');
+        var two = prompt('请输入第二个数');
+        alert(Number(one) + Number(two))
+
+    var c = prompt('你多大');
+    a = 114;
+    prompt('跳过'); 
+    if (c <= 12) {
+        alert('不可以访问');
+ } else {
+        alert('可以访问');
+    }
+
+var y = prompt('请输入年份')
+if (y % 4 == 0) {
+if (y % 100 == 0) {
+    if (y % 400 == 0) {
+        alert('闰年')
+        } else {
+        alert('平年')  
+    }
+    } else {
+    alert('闰年')
+}
+} else {
+alert('闰年')
+}
+
+var se1 = 0;
+var se = prompt('请输入学生总人数');     
+for(i = 1;i<=se;i++){
+    var se2 = prompt('请输入第'+ i +'个学生的成绩');
+    se1 = se1 + Number(se2);
+console.log(Number(se1))
+}
+    alert('平均成绩为'+ Number(se1)/Number(se))
+
+var i1;
+var j;
+for(i1=1;i1<=9;i1++){
+for(j=1;j<=i1;j++){
+console.log(j +'x' + i1 + '=' + i1*j + ' ')
+}
+console.log(' ')
+}
+var a1 = 0;
+    while (a1<10) {
+        console.log(a1)
+        a1++;
+        if (a1 =5) { 
+            // continue
+        }
+    }
+var a2 = 0;
+do {
+    console.log(a2)
+        a2++;
+        if (a2 =5) {
+            // break
+        }
+} while (a2<10);
+    console.log('dui')
+    console.log('666')
+function getRandomIntInclusive(min, max) {
+min = Math.ceil(min);
+max = Math.floor(max);
+return Math.floor(Math.random() * (max - min + 1)) + min; //含最大值，含最小值
+}
+</script>
+
+</head>
+<body>
+<h1>网页标题</h1>
+<hr>
+<a href="https://www.bilibili.com/" target="_blank">访问bilibili（新窗口）!</a>
+<a href="https://www.bilibili.com/" target="_top">访问bilibili（切换当前网页，不开新窗口）!</a>
+<!-- 注释 -->
+<img src="https://s.cn.bing.net/th?id=OJ.ctIMyEUgdeHZwQ&w=120&h=160&c=8&rs=1&pid=academic"/>
+<input type="button" onclick="myFunction()" value="显示警告框" />
+<input type="button" value="Hello world!">
+<a href="https://www.bilibili.com">B站官网</a>
+<b>图片超链接</b>
+<a href="http://www.bilibili.com">
+<img  border="12" src="http://www.runoob.com/smiley.gif" alt="bilibili"></a></p>
+<iframe src="https://www.runoob.com/try/try.php?filename=tryhtml_iframe_height_width" name="iframe_a" width="100%" height="600"></iframe>
+<p><a href="https://1919810.com/" target="iframe_a">让我试试HTML吧,____</a></p>
+<p>粗字体</p>
+
+<b>粗字体</b>
+</body> 
+</html>
